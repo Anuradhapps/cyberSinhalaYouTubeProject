@@ -8,7 +8,8 @@
     @include('libraries.style')
 </head>
 <body>
-@yield('content')
-@include('libraries.script')
+    @include('components.nav')
+    @yield('content')
+    @include('libraries.script')
 </body>
 </html>
